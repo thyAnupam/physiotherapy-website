@@ -107,7 +107,7 @@
 
 /*** Section Title Start ***/
 .section-title {
-    max-width: 90%;
+    max-width: 900px;
     text-align: center;
     margin: 0 auto;
 }
@@ -443,7 +443,7 @@
 
 .header-carousel .header-carousel-item .carousel-caption .carousel-caption-content {
     position: relative;
-    width: 85%;
+    width: 75%;
     
 }
 /*** Carousel Hero Header End ***/
@@ -728,7 +728,7 @@
 
 #videoModal .modal-dialog {
     position: relative;
-    max-width: 90%;
+    max-width: 800px;
     margin: 60px auto 0 auto;
 }
 
@@ -1094,7 +1094,7 @@
 
 /* Testimonial Section Title Start */
 .contact .section-title {
-    max-width: 90%;
+    max-width: 900px;
     text-align: center;
     margin: 0 auto;
 }
