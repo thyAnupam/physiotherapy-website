@@ -28,6 +28,19 @@
     z-index: 99;
 }
 
+.direct-call {
+    position: fixed;
+    right: 30px;
+    bottom: 90px;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    z-index: 99;
+}
+
 /*** Button Start ***/
 .btn {
     font-weight: 600;
@@ -331,15 +344,15 @@
 
 .header-carousel .owl-nav .owl-prev {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     top: 50%;
     left: 20px;
     transform: translateY(-50%);
     border-radius: 50%;
     background: var(--bs-primary);
     color: var(--bs-white);
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -348,15 +361,15 @@
 
 .header-carousel .owl-nav .owl-next {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
     border-radius: 50%;
     background: var(--bs-primary);
     color: var(--bs-white);
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
