@@ -110,6 +110,7 @@
     max-width: 900px;
     text-align: center;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .section-title .sub-style {
@@ -121,25 +122,27 @@
 
 .section-title .sub-style::before {
     content: "";
-    width: 100px;
+    width: 20%;
+    max-width: 100px;
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
     margin-top: 8px;
-    margin-left: -100px;
+    margin-left: -20%;
     border: 1px solid var(--bs-primary) !important;
 }
 
 .section-title .sub-style::after {
     content: "";
-    width: 50px;
+    width: 10%;
+    max-width: 50px;
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
     margin-bottom: 5px;
-    margin-left: -50px;
+    margin-left: -10%;
     border: 1px solid var(--bs-primary) !important;
 }
 
